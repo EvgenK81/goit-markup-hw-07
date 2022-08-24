@@ -1,4 +1,4 @@
-.team {
+.section--background{
     justify-content: center;
     width: 1600px;
     height: 708px;
@@ -7,20 +7,8 @@
     background: #F5F4FA;
 }
 
-.team__title {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
 
-    color: var(--primary-font-color);
-}
-
-.team__menu {
+.team {
     display: flex;
 }
 
@@ -44,7 +32,7 @@
 }
 
 
-.team__inform {
+.team__title {
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
@@ -54,7 +42,7 @@
     color: var(--primary-font-color);
 }
 
-.team__tex {
+.team__text {
     margin-bottom: 16px;
     font-size: 16px;
     line-height: 1.19;
@@ -62,13 +50,13 @@
     letter-spacing: 0.03em;
     color: var(--secondari-color);
 }
-.social {
+.socials {
     display: flex;
     justify-content: center;
     gap: 10px;
 }
 
-.social__link {
+.socials__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,15 +67,16 @@
     transition: background-color var(--transition-speed);
     &:hover,
     &:focus {
-            background-color: var(--accent-color);
-        }
+        background-color: var(--accent-color);
+    }
 }
+ 
 
-.social__icon {
+.socials__icon {
     fill: var(--icon-color);
     transition: fill var(--transition-speed);
-    .social__link:hover &,
-        .social__link:focus & {
+    .socials__link:hover &,
+    .socials__link:focus & {
             fill: var(--button-text-color);
         }
 }

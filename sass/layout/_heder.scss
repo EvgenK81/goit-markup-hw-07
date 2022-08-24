@@ -13,7 +13,7 @@
     align-items: center;
 }
 
-.nav__logo {
+.logo {
     font-family: var(--secondari-font);
     font-style: normal;
     font-weight: 700;
@@ -61,17 +61,17 @@
             color: var(--accent-color);
         }
 }
-.ul-list {
+.contacts {
     display: flex;
     align-items: center;
     margin-left: auto;
 }
 
-.ul-list__menu {
+.contacts__item{
     margin-right: 50px;
 }
 
-.ul-list__mailto {
+.contacts__link{
     padding-top: 32px;
     padding-bottom: 32px;
     align-items: center;
@@ -88,11 +88,11 @@
             color: var(--accent-color);
         }
 }
-.current {
+.menu__link--current {
     color: var(--accent-color);
 }
 
-.ul-list__envelope {
+.contacts__icon {
     fill: currentColor;
     margin-right: 10px;
 }
